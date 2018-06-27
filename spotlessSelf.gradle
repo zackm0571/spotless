@@ -53,7 +53,7 @@ spotless {
 	}
 	format 'misc', {
 		target '**/*.md', '**/*.gitignore'
-		indentWithSpaces(2)
+		indentWithSpaces(4)
 		trimTrailingWhitespace()
 		endWithNewline()
 	}
